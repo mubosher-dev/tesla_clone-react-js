@@ -1,0 +1,33 @@
+/* ==  RUBIK FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;1,400&display=swap');
+
+*{
+  font-family: "Rubik", sans-serif;
+  color:#393c41;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration:none;
+  cursor: pointer;
+}
+
+@keyframes animateDown {
+  0%,20%,50%,80%,100%{
+    transform: translateY(0);
+  }
+  40%{
+    transform:translateY(5px)
+  }
+  60%{
+    transform:translateY(3px)
+  }
+}
